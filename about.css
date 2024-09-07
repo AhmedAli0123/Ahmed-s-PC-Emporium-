@@ -1,0 +1,42 @@
+.more-about{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    background-color: rgb(196, 194, 194);
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.more-img{
+    margin-top: 40px;
+    height: 400px;
+    width: 50%;
+    border-radius: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.more-para{
+    margin-top: 100px;
+    height: 177px;
+    width: 40%;
+    word-spacing: 10px;
+    line-height: 30px;
+    color: black;
+    font-family: 700;
+    font-size: 1.2rem;
+}
+
+
+.more-img:hover{
+    transition: transform 0.2s ease-in;
+    transform: scale(1.06);
+}
+
+
+.more-para ol{
+    margin-top: 40px;
+    font-weight: 700;
+    word-spacing: normal;
+}
